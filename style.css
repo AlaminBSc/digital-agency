@@ -1,0 +1,31 @@
+*{
+    margin: 0;
+    padding:0;
+} 
+ 
+/* Header section style done */
+.nav-container{
+    display: flex;
+    justify-content:space-around; 
+    padding: 5px;
+    background-color:rgb(157, 152, 146);
+} 
+.logo-container{
+    display: flex;
+}
+.logo-title{
+    color: cyan;
+    margin:auto 0px;
+    font-size:20px;
+}
+.items{
+    display: flex;
+    height:5vh;
+    align-items:center;
+    list-style: none;
+    padding:5px;
+} 
+.item{
+   font-weight: bold;
+   margin-right: 15px;
+}
